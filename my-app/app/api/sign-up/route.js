@@ -1,6 +1,6 @@
 
 import { NextResponse } from 'next/server'
-import { DBConnection } from '@/app/libs/db/db-connection';
+import { DBConnection } from '../db/db-connection';
 import { Client } from '@/app/libs/db/db-schema';
 
 export async function POST(request) {

@@ -1,4 +1,4 @@
-import { PayNowButton } from "../ui/payment/payment-button";
+import { PayNowButton } from "./ui/payment-button";
 
 export default function Payment() {
   return (

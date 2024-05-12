@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation'
-import { SignupFormSchema } from '@/app/auth/sign-up/definitions/sign-up-definitions'
+import { SignupFormSchema } from '../definitions/sign-up-definitions'
 
 export async function SignUpFormState(state, formData) {
   // Validate form fields
