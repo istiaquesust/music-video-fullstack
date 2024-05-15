@@ -43,3 +43,7 @@ body {
 .form-input {
   color: rgb(20, 20, 20);
 }
+
+.upload-div {
+  background-color: rgba(20, 20, 20, 0.5);
+}

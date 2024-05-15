@@ -32,7 +32,6 @@ export async function SignUpFormState(state, formData) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        // Add any additional headers if needed
       },
       body: JSON.stringify(userData), // Pass user data here
     });
